@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18e0b723-716d-4b92-a9f3-c7614848e9c3" name="Default" comment="RRR" />
+    <ignored path="Sites.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" phpInterpreterId="ecadd982-6267-4e3f-82b5-0ebd8eecc4d9">
+    <pharConfigPath>$PROJECT_DIR$/laravel5/composer.json</pharConfigPath>
+    <pharPath>$PROJECT_DIR$/laravel5/composer.phar</pharPath>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Sites" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="c" />
+      <command text="artisan" />
+      <command text="c make:controller userController" />
+      <command text="cd laravel5/" />
+      <command text="c make:controller UserController" />
+      <command text="c" />
+      <command text="a make:controller UserController" />
+      <command text="artisan make:controller UsrController" />
+      <command text="cls" />
+      <command text="artisan make:controller UserController" />
+    </commandsHistory>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/laravel5/resources/views/articles/index.blade.php" />
+        <option value="$PROJECT_DIR$/laravel5/resources/views/articles/show.blade.php" />
+        <option value="$PROJECT_DIR$/helloYii/config/web.php" />
+        <option value="$PROJECT_DIR$/book/网上书城.txt" />
+        <option value="$PROJECT_DIR$/vote/index.php" />
+        <option value="$PROJECT_DIR$/laravel5/resources/views/articles/store.blade.php" />
+        <option value="$PROJECT_DIR$/laravel5/resources/views/articles/articles.blade.php" />
+        <option value="$PROJECT_DIR$/laravel5/app/Http/Controllers/ArticlesController.php" />
+        <option value="$PROJECT_DIR$/laravel5/config/app.php" />
+        <option value="$PROJECT_DIR$/laravel5/composer.json" />
+        <option value="$PROJECT_DIR$/laravel5/resources/views/app.blade.php" />
+        <option value="$PROJECT_DIR$/laravel5/resources/views/text.blade.php" />
+        <option value="$PROJECT_DIR$/.idea/commandlinetools/Composer_16_12_8_10_08_c.xml" />
+        <option value="$PROJECT_DIR$/laravel5/resources/views/articles/create.blade.php" />
+        <option value="$PROJECT_DIR$/tp_member/app/Common/Conf/config.php" />
+        <option value="$PROJECT_DIR$/tp_member/app/Home/View/Public/article.html" />
+        <option value="$PROJECT_DIR$/tp_member/app/Home/View/Public/header.html" />
+        <option value="$PROJECT_DIR$/tp_member/app/Home/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/tp_member/app/Home/View/Public/show.html" />
+        <option value="$PROJECT_DIR$/tp_member/Public/Css/style.css" />
+        <option value="$PROJECT_DIR$/tp_member/app/Home/View/Public/index.html" />
+        <option value="$PROJECT_DIR$/tp_member/app/Home/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/helloYii/views/hello/entry.php" />
+        <option value="$PROJECT_DIR$/helloYii/views/hello/index.php" />
+        <option value="$PROJECT_DIR$/helloYii/controllers/HelloController.php" />
+        <option value="$PROJECT_DIR$/helloYii/models/LoginForm.php" />
+        <option value="$PROJECT_DIR$/helloYii/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/helloYii/config/db.php" />
+        <option value="$PROJECT_DIR$/helloYii/models/Test.php" />
+        <option value="$PROJECT_DIR$/helloYii/controllers/TestController.php" />
+        <option value="$PROJECT_DIR$/helloYii/controllers/Test1Controller.php" />
+        <option value="$PROJECT_DIR$/helloYii/models/Order.php" />
+        <option value="$PROJECT_DIR$/helloYii/models/Indent.php" />
+        <option value="$PROJECT_DIR$/helloYii/models/orders.php" />
+        <option value="$PROJECT_DIR$/helloYii/models/Orders.php" />
+        <option value="$PROJECT_DIR$/helloYii/models/Customer.php" />
+        <option value="$PROJECT_DIR$/helloYii/controllers/Test2Controller.php" />
+        <option value="$PROJECT_DIR$/basic/controllers/HelloController.php" />
+        <option value="$PROJECT_DIR$/basic/views/hello/index.php" />
+        <option value="$PROJECT_DIR$/basic/views/hello/about.php" />
+        <option value="$PROJECT_DIR$/basic/views/layouts/common.php" />
+        <option value="$PROJECT_DIR$/basic/views/index/index.php" />
+        <option value="$PROJECT_DIR$/basic/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/basic/views/index/login.php" />
+        <option value="$PROJECT_DIR$/basic/controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/basic/views/layouts/home.php" />
+        <option value="$PROJECT_DIR$/basic/views/home/index.php" />
+        <option value="$PROJECT_DIR$/basic/views/home/login.php" />
+        <option value="$PROJECT_DIR$/laravel5/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/laravel54/routes/web.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/cd65118c-db72-4306-ba34-a6d40210b403/console.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="127.0.0.1" id="54d78ce5-193c-4663-b154-792d49485e1a" name="localhost" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/laravel5/vendor/composer" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/phpspec/php-diff" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/illuminate/html" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/danielstjules/stringy" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/mtdowling/cron-expression" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/symfony/class-loader" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/barryvdh/reflection-docblock" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/barryvdh/laravel-ide-helper" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/jeremeamia/SuperClosure" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/phpspec/phpspec" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/classpreloader/classpreloader" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/laravel5/vendor/phpunit/php-file-iterator" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="40" />
+    <option name="y" value="23" />
+    <option name="width" value="1400" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AngularJS</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Code SmellPHP</id>
+          </State>
+          <State>
+            <id>Code StylePHP</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>PHP Strict StandardsPHP</id>
+          </State>
+          <State>
+            <id>Type compatibilityPHP</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="false" />
+      <autoscrollFromSource ProjectPane="false" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="settings.editor.splitter.proportion" value="0.24634859" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="Push.Settings">
+    <excluded-roots>
+      <path value="$PROJECT_DIR$" />
+    </excluded-roots>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/helloYii/models" />
+      <recent name="$PROJECT_DIR$/laravel5" />
+      <recent name="$PROJECT_DIR$/tp5/app" />
+      <recent name="$PROJECT_DIR$/news/libs" />
+      <recent name="$PROJECT_DIR$/vuejs/vue-php" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tp5/app/index/view/index" />
+      <recent name="$PROJECT_DIR$/tp5/app/index" />
+      <recent name="$PROJECT_DIR$/tp5/app/index/controller" />
+      <recent name="$PROJECT_DIR$/shop/shop/Home/View/Public" />
+      <recent name="$PROJECT_DIR$/shop/Public" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHP Web Application.localhost">
+    <configuration default="false" name="Docker Deployment" type="docker-deploy" factoryName="Docker Deployment" temporary="true">
+      <deployment type="dockerfile" path="$PROJECT_DIR$/basic/vendor/codeception/base/Dockerfile">
+        <settings>
+          <option name="startBrowserSettings">
+            <browser url="http://192.168.99.100" />
+          </option>
+        </settings>
+      </deployment>
+      <method />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost">
+      <method />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="Docker Deployment">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="localhost" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="localhost">
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.localhost" />
+      <item index="1" class="java.lang.String" itemvalue="Docker Deployment.Docker Deployment" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Docker Deployment.Docker Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18e0b723-716d-4b92-a9f3-c7614848e9c3" name="Default" comment="" />
+      <created>1469097249191</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1469097249191</updated>
+      <workItem from="1475999031648" duration="474000" />
+      <workItem from="1475999777704" duration="510000" />
+      <workItem from="1476000327009" duration="169000" />
+      <workItem from="1476000527806" duration="288000" />
+      <workItem from="1476000893632" duration="590000" />
+      <workItem from="1476004992689" duration="377000" />
+      <workItem from="1476005651219" duration="286000" />
+      <workItem from="1476017048190" duration="1260000" />
+      <workItem from="1477318558705" duration="802000" />
+      <workItem from="1477320222222" duration="272000" />
+      <workItem from="1477439699318" duration="172000" />
+      <workItem from="1477439920551" duration="14857000" />
+      <workItem from="1477528876364" duration="7218000" />
+      <workItem from="1477542421687" duration="6272000" />
+      <workItem from="1477635646973" duration="6920000" />
+      <workItem from="1477962823903" duration="4427000" />
+      <workItem from="1478045025077" duration="15050000" />
+      <workItem from="1478131072736" duration="2787000" />
+      <workItem from="1478134914006" duration="1559000" />
+      <workItem from="1478156117250" duration="10194000" />
+      <workItem from="1478182033883" duration="1090000" />
+      <workItem from="1478217282044" duration="59000" />
+      <workItem from="1478237618381" duration="89000" />
+      <workItem from="1478237822542" duration="1045000" />
+      <workItem from="1478245428724" duration="922000" />
+      <workItem from="1478501561969" duration="449000" />
+      <workItem from="1478604606991" duration="985000" />
+      <workItem from="1478650127511" duration="15053000" />
+      <workItem from="1479348087172" duration="1970000" />
+      <workItem from="1479387022415" duration="2630000" />
+      <workItem from="1479903128943" duration="1592000" />
+      <workItem from="1479994563236" duration="915000" />
+      <workItem from="1480420753863" duration="261000" />
+      <workItem from="1480598057741" duration="3465000" />
+      <workItem from="1480602117734" duration="394000" />
+      <workItem from="1480604204671" duration="588000" />
+      <workItem from="1480605993223" duration="129000" />
+      <workItem from="1480661095201" duration="416000" />
+      <workItem from="1480664647067" duration="247000" />
+      <workItem from="1480665575163" duration="368000" />
+      <workItem from="1480670009312" duration="119000" />
+      <workItem from="1480682654106" duration="4784000" />
+      <workItem from="1480736534825" duration="155000" />
+      <workItem from="1480746198181" duration="416000" />
+      <workItem from="1480947768133" duration="492000" />
+      <workItem from="1480948301999" duration="3288000" />
+      <workItem from="1480952648894" duration="513000" />
+      <workItem from="1480953194215" duration="546000" />
+      <workItem from="1481025187072" duration="1002000" />
+      <workItem from="1481111518097" duration="3006000" />
+      <workItem from="1481116474378" duration="411000" />
+      <workItem from="1481117114611" duration="838000" />
+      <workItem from="1481117983923" duration="648000" />
+      <workItem from="1481118967118" duration="2675000" />
+      <workItem from="1481198398684" duration="255000" />
+      <workItem from="1481199005614" duration="105000" />
+      <workItem from="1481199138885" duration="92000" />
+      <workItem from="1481199256780" duration="50000" />
+      <workItem from="1481199332124" duration="237000" />
+      <workItem from="1481199608289" duration="184000" />
+      <workItem from="1481199835680" duration="77000" />
+      <workItem from="1481200035103" duration="1231000" />
+      <workItem from="1481202214874" duration="1630000" />
+      <workItem from="1481205457456" duration="1377000" />
+      <workItem from="1481206923175" duration="442000" />
+      <workItem from="1481267312596" duration="168000" />
+      <workItem from="1481267510510" duration="188000" />
+      <workItem from="1481867458549" duration="7145000" />
+      <workItem from="1482419401333" duration="44000" />
+      <workItem from="1482420366873" duration="221000" />
+      <workItem from="1482421426556" duration="352000" />
+      <workItem from="1482837993962" duration="386000" />
+      <workItem from="1482838737638" duration="455000" />
+      <workItem from="1483092708035" duration="459000" />
+      <workItem from="1483111662103" duration="143000" />
+      <workItem from="1483185546069" duration="586000" />
+      <workItem from="1483186325619" duration="2618000" />
+      <workItem from="1483533253288" duration="186000" />
+      <workItem from="1483533553833" duration="172000" />
+      <workItem from="1483533747518" duration="1149000" />
+      <workItem from="1483571809527" duration="43000" />
+      <workItem from="1483623980432" duration="3510000" />
+      <workItem from="1483743902277" duration="670000" />
+      <workItem from="1483794004301" duration="4299000" />
+      <workItem from="1483969516573" duration="62000" />
+      <workItem from="1484211584273" duration="673000" />
+      <workItem from="1484219170720" duration="7841000" />
+      <workItem from="1487256963983" duration="55000" />
+      <workItem from="1487257038038" duration="357000" />
+      <workItem from="1487601596979" duration="142000" />
+      <workItem from="1487919846587" duration="107000" />
+      <workItem from="1488199569240" duration="602000" />
+      <workItem from="1488201892858" duration="129000" />
+      <workItem from="1488202038531" duration="293000" />
+      <workItem from="1488439177544" duration="163000" />
+      <workItem from="1488981609236" duration="259000" />
+      <workItem from="1488981898894" duration="33000" />
+      <workItem from="1489500307243" duration="101000" />
+      <workItem from="1490192549366" duration="102000" />
+      <workItem from="1490882630940" duration="225000" />
+      <workItem from="1490883040619" duration="330000" />
+      <workItem from="1490883404479" duration="318000" />
+      <workItem from="1491830122998" duration="60000" />
+      <workItem from="1491830214534" duration="307000" />
+      <workItem from="1491910330045" duration="40000" />
+      <workItem from="1492003411797" duration="275000" />
+      <workItem from="1492392822829" duration="23000" />
+      <workItem from="1492392865911" duration="203000" />
+      <workItem from="1492432503461" duration="493000" />
+      <workItem from="1492433193350" duration="58000" />
+      <workItem from="1492433434130" duration="326000" />
+      <workItem from="1492433935984" duration="34000" />
+      <workItem from="1492434112611" duration="811000" />
+      <workItem from="1492472525791" duration="694000" />
+      <workItem from="1492473913430" duration="433000" />
+    </task>
+    <task id="LOCAL-00001" summary="gg">
+      <created>1492434327246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1492434327246</updated>
+    </task>
+    <task id="LOCAL-00002" summary=" FF">
+      <created>1492474292662</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1492474292662</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Sites - 2016.10.09 at 15h 48m 15s.xml">
+      <configuration name="Sites" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Sites - 2016.10.09 at 16h 02m 39s.xml">
+      <configuration name="Sites" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Sites - 2016.10.09 at 16h 06m 56s.xml">
+      <configuration name="Sites" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Sites - 2016.10.09 at 16h 08m 56s.xml">
+      <configuration name="Sites" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Sites - 2016.10.09 at 16h 09m 04s.xml">
+      <configuration name="Sites" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Sites - 2016.10.09 at 16h 11m 28s.xml">
+      <configuration name="Sites" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Sites - 2016.10.09 at 16h 25m 16s.xml">
+      <configuration name="Sites" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Sites - 2016.10.09 at 17h 23m 58s.xml">
+      <configuration name="Sites" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Sites - 2016.10.09 at 17h 29m 05s.xml">
+      <configuration name="Sites" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="170067000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="40" y="23" width="1400" height="877" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17857143" sideWeight="0.48514852" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.49484536" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3180693" sideWeight="0.50285715" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21649484" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3180693" sideWeight="0.49714285" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32738853" sideWeight="0.49707112" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39480197" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23478884" sideWeight="0.5148515" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2809406" sideWeight="0.4931997" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31930694" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17945544" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gg" />
+    <MESSAGE value=" FF" />
+    <option name="LAST_COMMIT_MESSAGE" value=" FF" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/laravel5/resources/views/app.blade.php" />
+    <entry file="file://$PROJECT_DIR$/.idea/commandlinetools/Composer_16_12_8_10_00_c.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/commandlinetools/Composer_16_12_8_10_08_c.xml" />
+    <entry file="file://$PROJECT_DIR$/laravel5/app/Http/Controllers/UsrController.php" />
+    <entry file="file://$PROJECT_DIR$/laravel5/app/Http/Controllers/ArticlesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="52" column="34" lean-forward="false" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel5/resources/views/articles/create.blade.php" />
+    <entry file="file://$PROJECT_DIR$/laravel5/app/Http/Controllers/UserController.php" />
+    <entry file="file://$PROJECT_DIR$/tp_member/app/Common/Conf/config.php" />
+    <entry file="file://$PROJECT_DIR$/tp_member/app/Home/View/Public/reg.html" />
+    <entry file="file://$PROJECT_DIR$/tp_member/app/Home/View/Public/header.html" />
+    <entry file="file://$PROJECT_DIR$/tp_member/app/Home/View/Public/article.html" />
+    <entry file="file://$PROJECT_DIR$/tp_member/app/Home/View/Index/index.html" />
+    <entry file="file://$PROJECT_DIR$/tp_member/app/Home/View/Public/show.html" />
+    <entry file="file://$PROJECT_DIR$/tp_member/Public/Css/style.css" />
+    <entry file="file://$PROJECT_DIR$/tp_member/app/Home/View/Public/index.html" />
+    <entry file="file://$PROJECT_DIR$/tp_member/app/Home/Controller/IndexController.class.php" />
+    <entry file="file://$PROJECT_DIR$/phpdemo/01.php" />
+    <entry file="file://$PROJECT_DIR$/phpdemo/01.html" />
+    <entry file="file://$PROJECT_DIR$/helloYii/controllers/HelloController.php" />
+    <entry file="file://$PROJECT_DIR$/helloYii/views/hello/index.php" />
+    <entry file="file://$PROJECT_DIR$/helloYii/views/hello/entry.php" />
+    <entry file="file://$PROJECT_DIR$/helloYii/models/LoginForm.php" />
+    <entry file="file://$PROJECT_DIR$/helloYii/models/Test.php" />
+    <entry file="file://$PROJECT_DIR$/helloYii/config/db.php" />
+    <entry file="file://$PROJECT_DIR$/helloYii/web/index.php" />
+    <entry file="file://$PROJECT_DIR$/helloYii/config/web.php" />
+    <entry file="file://$PROJECT_DIR$/helloYii/models/Customer.php" />
+    <entry file="file://$PROJECT_DIR$/helloYii/models/Orders.php" />
+    <entry file="file://$PROJECT_DIR$/basic/web/index.php" />
+    <entry file="file://$PROJECT_DIR$/basic/config/params.php" />
+    <entry file="file://$PROJECT_DIR$/basic/models/LoginForm.php" />
+    <entry file="file://$PROJECT_DIR$/basic/config/web.php" />
+    <entry file="file://$PROJECT_DIR$/helloYii/controllers/TestController.php" />
+    <entry file="file://$PROJECT_DIR$/helloYii/controllers/IndexController.php" />
+    <entry file="file://$PROJECT_DIR$/helloYii/controllers/SiteController.php" />
+    <entry file="file://$PROJECT_DIR$/helloYii/controllers/Test1Controller.php" />
+    <entry file="file://$PROJECT_DIR$/helloYii/controllers/Test2Controller.php" />
+    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/base/Controller.php" />
+    <entry file="file://$PROJECT_DIR$/basic/views/hello/about.php" />
+    <entry file="file://$PROJECT_DIR$/basic/views/hello/index.php" />
+    <entry file="file://$PROJECT_DIR$/basic/controllers/HelloController.php" />
+    <entry file="file://$PROJECT_DIR$/basic/views/layouts/main.php" />
+    <entry file="file://$PROJECT_DIR$/basic/views/layouts/common.php" />
+    <entry file="file://$PROJECT_DIR$/basic/controllers/HomeController.php" />
+    <entry file="file://$PROJECT_DIR$/basic/views/layouts/home.php" />
+    <entry file="file://$PROJECT_DIR$/basic/views/home/login.php" />
+    <entry file="file://$PROJECT_DIR$/basic/views/home/index.php" />
+    <entry file="file://$PROJECT_DIR$/laravel5/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cd65118c-db72-4306-ba34-a6d40210b403/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5a44c0e7-b873-438d-9fbe-a9a88984a2f0/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel54/routes/web.php" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

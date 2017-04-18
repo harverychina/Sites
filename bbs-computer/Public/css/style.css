@@ -1,0 +1,52 @@
+/*
+*  bbs style
+*  论坛样式 
+*/
+@charset "UTF-8";
+/*
+ * Globals
+ */
+
+/* Links */
+a,a:focus,a:hover {
+  color: #563d7c;
+}
+
+/*
+ * Base structure
+ */
+
+html,body {
+  height: 100%;
+}
+body {
+  color: #333;
+  text-align: center;
+}
+
+.navbar-brand:hover { 
+  font-weight: bolder;
+}
+.navbar-collapse {
+  float: left;
+}
+
+/**
+ * banner 广告
+ */
+.bs-docs-header {
+  position: relative;
+  background-color: #563d7c;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-repeat: repeat-x;
+}
+.bs-docs-header h1, .bs-docs-header h4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.bs-docs-header h4{
+  text-indent: .5em;
+  padding: 15px;
+}

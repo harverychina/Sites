@@ -1,0 +1,65 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+
+    <title>Web Design 网站项目开发协会</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/bbs-computer/Public/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="/bbs-computer/Public/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+        <!-- navbar 顶部菜单 -->
+        <div class="navbar navbar-static-top bs-docs-nav">
+            <div class="container">
+              <!-- navbar-header -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">网站项目开发协会</a>
+              </div>
+              <!-- navbar-collapse -->
+              <div class="navbar-tabs colloapse" role="navigation">
+                <ul class="nav navbar-nav">
+                  <li><a href="#">协会首页</a></li>
+                  <li><a href="#">活动照片</a></li>
+                  <li><a href="#">协会论坛</a></li>
+                  <li><a href="#">关于我们</a></li>
+                </ul>
+              </div>
+              <!-- form-group -->
+              <form action="" class="navbar-form navbar-right">
+                <div class="form-group">
+                  <input type="text" name="" id="" class="form-control" placeholder="账号">
+                </div>
+                <div class="form-group">
+                  <input type="password" name="" id="" class="form-control" placeholder="密码">
+                </div>
+                  <button type="submit" class="btn btn-success" value="">登录</button>
+              </form>
+            </div>
+        </div>
+        <!-- banner 广告 -->
+        <div class="bs-docs-header" id="content" tabindex="-1">
+          <div class="container">
+            <h1>Web Design 网站项目开发 毕业生成果展</h1>
+            <h4>2016-6-24 由广州市工贸技师学院信息产业系承办</h4>
+          </div>
+        </div>
+      </div>
+      <!-- teacher / student description 老师和学生简介-->
+    <script src="/bbs-computer/Public/js/jquery.min.js"></script>
+    <script src="/bbs-computer/Public/js/bootstrap.min.js"></script>
+  </body>
+</html>

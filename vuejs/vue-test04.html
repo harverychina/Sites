@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vue test04</title>
+</head>
+<body>
+	<div id="app">
+		<!-- Vuejs 1.0版本以后的事件处理声明有了一点点的改变，但其简单轻量的本质没有变，这个视频也会讲解基本的事件处理和内联事件的用法 -->
+
+		<!-- 简写v-on方式 使用 @ 符号 -->
+
+		<!-- <form action="demo4.html" @submit.prevent="submitForm"> -->
+
+		<!-- <form action="demo4.html" v-on:submit.prevent="submitForm"> -->
+
+			<!-- <button> Submit </button> -->
+			<button type="button" @click = ' count += 1'>  Submit {{ count }}</button>
+
+		<!-- </form> -->
+	</div>
+	<script src="libs/vue.js"></script>
+	<script>
+		new Vue({
+			el: '#app',
+			data: {
+				count: 0
+			},
+			methods: {
+				// submitForm: function(){
+				// submitForm: function(e){
+					// alert('Submit');
+					// 阻止默认表单提交
+					// e.preventDefault();
+				// }
+				click : function(){
+					this.count += 1;
+				}
+			}
+		})
+	</script>
+</body>
+</html>

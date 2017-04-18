@@ -1,0 +1,7 @@
+@@charset "UTF-8";
+*{ margin: 0px; padding: 0px;}
+body{ font-size: 12px;}
+form{ padding: 40px; width: 300px; margin: 5% auto; text-align: center;}
+h3{ height: 30px; padding: 5px; line-height: 30px;}
+.userid{ height: 26px; width: 200px; margin: 15px auto;}
+#add, #exit{ height: 30px; width: 45px; border: none; margin-right: 10px;}

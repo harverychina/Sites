@@ -1,0 +1,15 @@
+<table>
+    <caption>新闻分类</caption>
+    <tr>
+        <th>序号</th>
+        <th>分类名称</th>
+        <th>操作</th>
+    </tr>
+    <volist name="data" id="vo">
+        <tr>
+            <td>{$vo.id}</td>
+            <td>{$vo.name}</td>
+            <td><a href="__APP__/Home/Index/deltype/{$vo.id}">删除</a></td>
+        </tr>
+    </volist>
+</table>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>个人博客</title>
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/style.css">
+    </head>
+    <body>
+    <div class="container">
+        <div class="header">
+            <a href="__APP__/Home/index"><h2>个人博客</h2></a>
+        </div>
+        <div class="body">
+            <div class="banner_row">
+                <h2>网站功能模块开发---ThinkPHP框架</h2>
+                <p>个人博客</p>
+            </div>
+            <!-- 菜单 -->
+            <div class="left">
+                <a href="__APP__/Home/Index/show_in" class="menu">发布博文</a>
+                <a href="__APP__/Home/Index/show_update" class="menu">更新博文</a>
+                <a href="__APP__/Home/Index/delfile" class="menu">删除博文</a>
+                <a href="__APP__/Home/Index/showtype" class="menu">添加分类</a>
+                <a href="__APP__/Home/Index/typedesc" class="menu">删除分类</a>                
+                <a href="__APP__/Home/Index" class="menu">返回主页</a>
+            </div>
+            <!-- 内容 -->
+            <div class="right">
+                <if condition="($item eq '发布博文')"> 
+                    <include file="Index/infile" />
+                <elseif condition="($item eq '删除博文')" />
+                    <volist name='row' id='vo'>
+                        <div class="rrow">
+                            <h1><a href="#">{$vo.title}</a></h1>
+                            <p>{$vo.time|date='Y-m-d H:i:s',###} | <a href="__APP__/Home/Index/del_ok/{$vo.id}">删除</a></p>
+                        </div>
+                    </volist>
+                <elseif condition="($item eq '选择更新博文')" />
+                    <volist name='row' id='vo'>
+                        <div class="rrow">
+                            <h1><a href="#">{$vo.title}</a></h1>
+                            <p>{$vo.time|date='Y-m-d H:i:s',###} | <a href="__APP__/Home/Index/show_update_file/{$vo.id}">更新</a></p>
+                        </div>
+                    </volist>
+                <elseif condition="($item eq '详细更新博文')" />   
+                    <include file="Index/update" />
+                <elseif condition="($item eq '显示添加分类')" />   
+                    <include file="Index/intype" />
+                <elseif condition="($item eq '显示分类条目')" />   
+                    <include file="Index/typedesc" />
+                <elseif condition="($item eq '显示博文内容')" />   
+                    <include file="Index/show_desc" />                
+                <else />
+                    <volist name='row' id='vo'>
+                        <div class="rrow">
+                            <h1><a href="__APP__/Home/Index/show_desc/{$vo.id}">{$vo.title}</a></h1>
+                            <p>{$vo.time|date='Y-m-d H:i:s',###}</p> 
+                        </div>
+                    </volist>
+                </if>            
+            </div>
+            <!-- 底部 -->
+            <div class="footer">
+                <p>@网站功能模块开发练习题</p>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

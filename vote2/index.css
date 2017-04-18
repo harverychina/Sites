@@ -1,0 +1,18 @@
+@charset "utf8"
+/*  全局 */
+	* { margin: 0px; padding: 0px; }
+	body{ font-size: 12px; }
+	a{ text-decoration: none; }
+	ul, li { list-style: none; }
+/* 局部 */
+    .wrap { width: 800px; margin: 0 auto; }
+    .top { height: 40px; line-height: 40px; }
+    h3 { width: 120px; float: left; }
+    .sidebar { width: 120px; float: right; }
+    .content { padding: 40px;  }
+	.content table { width: 600px; text-align: center; }
+	.content table tr th,.content table tr td { padding: 8px 0;  }
+	.content table tr th { font-size: 16px; font-weight: bold; }
+	.content table tr td { font-size: 14px; }
+	.vote_key { width: 50px;}
+	.islike, .dislike { height: 20px; border: none; background-color: #f00; color: #fff;}

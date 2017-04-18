@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vue test03</title>
+	<style>
+		#app{ width: 600px; margin: 0 auto; }
+		textarea{ width: 600px; height: 80px; resize: none;}
+	</style>
+</head>
+<body>
+	<!-- Vuejs的v-show在很多时候实现一些简单的功能时候给我们提供了很大的便利，原理基本就是在style当中使用display:none来实现的 -->
+	<div id="app">
+		<form>
+			<div class="error" v-show="!message">You must enter a message to submit</div>
+			<!-- <div class="error" v-if="!message">You must enter a message to submit</div> -->
+			<textarea v-model='message'></textarea>
+			<button v-show="message">Send message</button>
+		</form>
+		<pre>{{ $data | json }}</pre>
+	</div>
+
+	<script src="libs/vue.js"></script>
+	<script>
+		new Vue({
+			el: '#app',
+			data: {
+				message: '',
+			}
+		})
+	</script>
+</body>
+</html>

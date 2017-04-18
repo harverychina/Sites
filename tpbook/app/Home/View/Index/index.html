@@ -1,0 +1,47 @@
+<include file="Public:header" />
+      <div class="content">
+            <h1 class="h1_book_title">图书列表</h1>
+        	<ul>
+                <volist name="bookList" id="vo">
+            	<li>
+                	<dl>
+                    	<dd><a href="__CONTROLLER__/showDesc/{$vo.id}"><img src="__PUBLIC__/Images/{$vo.img}.jpg" alt="book" /></a></dd>
+                        <dt>
+                        	<p class="book_title"><a href="__CONTROLLER__/showDesc/{$vo.id}" target="_blank">{$vo.name}</a></p>
+                            <p class="book_inline">&#65509;{$vo.price}</p>
+                            <a class="book_buy" href="#" target="_blank">BUY</a>
+                        </dt>
+                    </dl>
+                </li>
+                </volist>
+            </ul>
+      </div>
+        <p class="index_hr"></p>
+        <div class="content_press">
+        	<div class="press_porsen_01">
+                <h1>新闻中心</h1>
+            	<dl>
+                	<dd><img src="__PUBLIC__/Images/img_men.jpg" alt="person" /></dd>
+                    <dt>
+                    	<p class="date">Nov 11, 2016</p>
+                        <p class="book_title"><a href="#" target="_blank">Design Is a Job audiobook</a></p>
+                        <p class="book_intro">
+                        We’re pleased to announce that <a href="#">Design Is a Job</a> by Mike Monteiro is now available in audiobook format, through <a href="#">Audible.com</a> and <a href="#">Amazon.com</a>. Narrated by the raconteur himself, experience the guidance, real-talk, and humor of our seminal book on design as a job.
+                        </p>
+                    </dt>
+                </dl>
+            </div>
+            <div class="press_porsen_02">
+                <h1><span class="span_2"><a href="#"> 更多文章 →</a></span></h1>
+            	<dl>
+                	<dd><img src="__PUBLIC__/Images/img_lives.jpg" alt="book img" /></dd>
+                    <dt>
+                    	<p class="date">Mar 31, 2014</p>
+                        <p class="book_title"><a href="#" target="_blank">A Few of Our Faves: March 31st</a></p>
+                        <p class="book_intro">
+                        As the madness of March comes to a close, we gathered up a few things that caught our attention during the last half of the month. <a href="#">Read on for more.</a>                        </p>
+                    </dt>
+                </dl>
+            </div>
+        </div>
+<include file="Public:footer" />

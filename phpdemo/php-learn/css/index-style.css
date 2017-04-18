@@ -1,0 +1,13 @@
+@charset 'utf8';
+#wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100px;
+    width: 220px;
+    margin: -100px 0 0 -100px;
+    text-align: center;
+}
+#wrap #center h1 {
+    font-size: 52px;
+}

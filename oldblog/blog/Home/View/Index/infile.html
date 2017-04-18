@@ -1,0 +1,25 @@
+<div class="rrow">
+    <form action="__APP__/Home/Index/addfile" method="post">
+        标题：<input type="text" class="intitle" name="title" /><br />
+        作者：<input type="text" class="intauthor" name="author" /><br />
+        分类：<select name="type_id" class="type_id">
+            <volist name="data" id="vo">
+                <option value="{$vo.id}">{$vo.name}</option>
+            </volist>
+        </select><br />
+        内容：<br />
+        <script type="text/javascript" src="__PUBLIC__/plugins/ueditor/ueditor.config.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/plugins/ueditor/ueditor.all.js"></script>
+        <textarea id="myEditor" name="content"></textarea><input type="submit" class="su_add" value="提交"/>
+        <script type="text/javascript" charset="utf-8">
+            window.UEDITOR_HOME_URL = "__PUBLIC__/plugins/ueditor/";
+        </script>
+        <script language="javascript">
+            var editor = new UE.ui.Editor();  //实例化
+            editor.render("myEditor");   //生成格式面板
+            editor.ready(function(){   // 清空文本域内容
+                editor.setContent("");
+            });
+        </script>
+    </form>
+</div>

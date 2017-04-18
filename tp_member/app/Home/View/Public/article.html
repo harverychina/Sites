@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="container">
+        <form action="__CONTROLLER__/create" method="post" class="form-group">
+            <h3>发布文章</h3>
+            <label for="">标题</label><input type="text" name="title" id="title" class="form-control">
+            <label for="">作者</label><input type="text" name="author" id="author" value="{:session('account')}" class="form-control">
+            <label for="">内容</label><textarea name="content" id="content" cols="30" rows="10" class="form-control"></textarea>
+            <input type="submit" value="发布" class="btn btn-primary">
+        </form>
+    </div>
+</div>

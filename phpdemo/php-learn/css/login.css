@@ -1,0 +1,37 @@
+@charset 'utf8';
+#login-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 200px;
+    width: 220px;
+    margin: -100px 0 0 -100px;
+}
+#login-wrap label {
+    width: 38px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: 100;
+    display: block;
+}
+#username, #password, #verifyCode {
+    width: 200px;
+    height: 25px;
+    border: 1px dashed #ccc;
+    text-indent: 1.5em;
+    border-radius: 5px;
+} 
+#username:hover, #password:hover , #verifyCode:hover {
+    border: 1px solid #900;
+}
+#btn-login, #btn-reg {
+    height: 32px;
+    line-height: 32px;
+    width: 45px;
+    display: inline-block;
+    color: #fff;
+    background-color: #f00;
+    text-align: center;
+    margin: 30px 30px;
+}

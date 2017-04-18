@@ -1,0 +1,35 @@
+@charset "utf-8";
+* {padding: 0; margin: 0;}
+body,html { font: 12px "宋体","Arial Narrow",HELVETICA;}
+ul li {list-style: none;}
+a { text-decoration: none; color: #fff;}
+a:hover { text-decoration: underline;}
+
+
+/* header */
+header{ background-color: #000; color: #fff; height: 35px; line-height: 35px; }
+header .title { float: left; }
+header .title h3{ float: left; margin-left: 118px;}
+
+/* center */
+.center{ padding: 5px;}
+.center .left , .center .right { float: left;}
+.center .left { width: 20%; }
+.center .right { width: 80%;}
+/* menu */
+.center .left .menu { height: 400px; padding: 25px;}
+.center .left .menu li { height: 45px; line-height: 45px; width: 200px; margin: 0 auto; text-align: center; padding: 15px 0; }
+.center .left .menu li a { width: 140px; display: block; text-decoration: none; font-size: 16px; color: #000;}
+.center .left .menu li a:hover { background-color: #0000aa; color: #fff;}
+
+/* chang_pass */
+.chang_pass_row { width: 220px; margin: 0 auto; padding: 80px;}
+.chang_pass_row #oldpass, .chang_pass_row #newpass, .chang_pass_row #rpass { width: 220px;}
+.chang_pass_row #oldpass, .chang_pass_row #newpass, .chang_pass_row #rpass, .chang_pass_row #code { height: 30px; margin: 15px 0;}
+.chang_pass_row #code { width: 80px;}
+.chang_pass_row #btn { height: 32px; width: 80px; background-color: #f00; color: #fff; border: none;}
+
+/* footer */
+footer { width: 100%; background-color: #000; color: #fff; height: 45px; line-height: 45px; bottom: 0; position: fixed;}
+footer h4 { text-align: center;
+    font-size:14px;}

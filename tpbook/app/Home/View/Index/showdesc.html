@@ -1,0 +1,16 @@
+<include file="Public:header" />
+<div class="content">
+    <div class="row">
+        <div class="col-xs-6 col-md-6"><img src="__PUBLIC__/Images/{$bookDesc['img']}.jpg" alt="goodImg" class="img-rounded"></div>
+        <div class="col-xs-6 col-md-6">
+            <p>书名：{$bookDesc['name']}</p>
+            <p>ISBN：{$bookDesc['isbn']}</p>
+            <p>出版社{$bookDesc['press']}</p>
+            <p>作者：{$bookDesc['author']}</p>
+            <p>价格：{$bookDesc['price']}</p>
+            <p>出版时间：{$bookDesc['pubtime'] | date="Y年m月d日",###}</p>
+            <a class="book_buy" href="#">BUY</a>
+        </div>
+    </div>
+</div>
+<include file="Public:footer" />

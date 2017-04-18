@@ -1,0 +1,19 @@
+<include file="Public:header"/>
+<if condition="$page eq 1">
+    <!-- 首页内容 -->
+    <include file="Public:index"/>
+<elseif condition="$page eq 2"/>
+    <!-- 登录内容 -->
+    <include file="Public:login"/>
+<elseif condition="$page eq 3"/>
+    <!-- 注册内容 -->
+    <include file="Public:reg"/>
+<elseif condition="$page eq 4"/>
+    <!-- 发布文章 -->
+    <include file="Public:article"/>
+<elseif condition="$page eq 5"/>
+<!-- 发布文章 -->
+    <include file="Public:show"/>
+</if>
+<include file="Public:footer"/>
+

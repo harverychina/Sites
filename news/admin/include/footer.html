@@ -1,0 +1,123 @@
+    </div>
+</div>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".drop-down").click(function(){
+            $(".use_list").slideToggle(500);
+        });
+//        update function 更新功能
+        $(".mdf-btn").click(function () {
+            var id = $('.id').val();
+            var title = $('.title').val();
+            var author = $('.author').val();
+            var content = $('.content').val();
+            var address = $('.address').val();
+            if(title == '') {
+                alert('标题修改不能为空！');
+                return false;
+            }
+            if(author == '') {
+                alert('作者修改不能为空！');
+                return false;
+            }
+            if(content == '') {
+                alert('内容修改不能为空！');
+                return false;
+            }
+            if(address == '') {
+                alert('地点修改不能为空！');
+                return false;
+            }
+            $.ajax({
+                type: 'post',
+                url: 'update.php',
+                dataType: 'json',
+                data:{id: id, title: title, author: author, content: content, address: address},
+                success: function(json){
+                    if(json.code == 1) {
+                        alert('更新成功！');
+                        window.location.href = 'index.php';
+                    } else {
+                        alert('更新失败！');
+                        return false;
+                    }
+                }
+            });
+        })
+//      load back 返回
+        $(".return").click(function () {
+            window.location.href = 'index.php';
+        });
+
+//      send news 发布新闻
+        $('.send-btn').click(function () {
+            var title = $('.title').val();
+            var author = $('.author').val();
+            var content = $('.content').val();
+            var address = $('.address').val();
+            if(title == '') {
+                alert('标题不能为空！');
+                $('.title').focus();
+                return false;
+            }
+            if(author == '') {
+                alert('作者不能为空！');
+                $('.author').focus();
+                return false;
+            }
+            if(content == '') {
+                alert('内容不能为空！');
+                $('.content').focus();
+                return false;
+            }
+            if(address == '') {
+                alert('地点不能为空！');
+                $('.address').focus();
+                return false;
+            }
+            $.ajax({
+                type: 'post',
+                url: 'send_ok.php',
+                dataType: 'json',
+                data: { title: title, author: author, content: content, address: address},
+                success: function (json) {
+                    if(json.code == 1) {
+                        alert('发布成功！');
+                        window.location.href = 'index.php';
+                    } else {
+                        alert('发布失败！');
+                        return false;
+                    }
+                }
+            });
+        });
+//      查询新闻
+        $('.search-btn').click(function () {
+            var keyword = $('.keyword').val();
+            if(keyword == '') {
+                alert('查询新闻标题不能为空！');
+                $('.keyword').focus();
+                return false;
+            }
+            $.ajax({
+                type: 'post',
+                url: 'search_ok.php',
+                dataType: 'json',
+                data: { keyword: keyword},
+                success: function (json) {
+                    if(json.code == 1) {
+                        $('.table-result').html( function() {
+                            return "<thead><tr><th>编号 No</th><th>标题 Title</th><th>作者 Author</th><th>内容 Content</th><th>时间 Time</th></tr></thead><tbody><tr><td class='cols3'>"+ json.data['id'] +"</td><td class='cols3'>"+ json.data['title'] +"</td><td class='cols3'>"+ json.data['author'] +"</td><td class='cols3'>"+ json.data['content'] +"</td><td class='cols4'>"+ json.data['time'] +"</td></tr></tbody>";
+                        });
+                    } else {
+                        alert('查无结果！');
+                        window.location.reload();
+                    }
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<div class="rrow">
+    <form action="__APP__/Home/Index/update_ok" method="post">
+        标题：<input type="text" class="uptitle" name="title"  value="{$data.title}" /><input type="hidden" name="id" value="{$data.id}" /><br />
+        作者：<input type="text" class="upauthor" name="author" value="{$data.author}"/><br />
+        <div class="uptype">分类：{$type_name}</div>
+        内容：<br />
+        <textarea rows="10" cols="60" class="upcontent" name="content">{$data.content}</textarea><br />
+        <input type="submit" class="su" value="提交"/>
+    </form>
+</div>

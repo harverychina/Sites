@@ -1,0 +1,15 @@
+@charset "utf-8"
+*{ padding: 0px; margin: 0px; }
+ul li{ list-style-type: none; }
+a{ text-decoration: none; }
+body{ font-size: 12px; }
+.wrap{ width: 800px; margin: 0 auto; }
+.header{ height: 65px; text-align: center; line-height: 65px; }
+.sider{ height: 35px; line-height: 35px;  }
+.sider ul { width: 200px; float: right; }
+.sider ul li{ height: 25px; width: 40px; float: left; text-align: center;}
+.center{ width: 500px; margin: 0 auto; }
+.messages { padding: 30px; }
+#msg { resize: none; }
+.footer{ height: 45px; background-color: #ccc;}
+.footer p{ text-align: center; line-height: 45px; }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue.js test01</title>
+</head>
+<body>
+   <div id="test01">
+        <h1>{{ message }}</h1>
+        <input type="text" v-model="message">
+        <pre>
+            {{ $data | json }}
+        </pre>
+   </div>
+</body>
+
+<script src="http://cn.vuejs.org/js/vue.js"></script>
+<script>
+    new Vue({
+        el: '#test01',
+        data: {
+            message: 'hello vue.js!'
+        }
+    })
+</script>
+</html>

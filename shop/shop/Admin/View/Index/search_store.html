@@ -1,0 +1,30 @@
+<div class="search_store">
+    <h3>查询商家</h3>
+    <div class = "store_search">
+        <form action="__CONTROLLER__/show_search_store_result" method="post">
+            商家名：<input type="text" name="search_store_key" id="search_store_key"><input type="submit" value="查询" id="search_store_btn">
+        </form>
+        <if condition = "$store_info neq ''">
+            <table>
+                <tr>
+                    <th>序号</th>
+                    <th>商家名</th>
+                    <th>商家地址</th>
+                    <th>商家电话</th>
+                    <th>加盟时间</th>
+                </tr>
+                <noempty name="store_info">
+                    <volist name="store_info" id="vo">
+                    <tr>
+                            <td>{$vo.id}</td>
+                            <td>{$vo.name}</td>
+                            <td>{$vo.address}</td>
+                            <td>{$vo.tel}</td>
+                            <td>{$vo.time|date='Y-m-d',###}</td>
+                    </tr>
+                    </volist>
+                </noempty>
+            </table>
+        </if>
+    </div>
+</div>

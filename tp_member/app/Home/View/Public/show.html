@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="container">
+        <div class="media">
+            <a class="media-left" href="#">
+                <img src="..." alt="...">
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading">{$list.title}</h4>
+                <small>作者：{$list.author}</small>
+                <small>创建时间：{$list.create_time|date='Y年m月d日',###}</small>
+                <small>更新时间：{$list.update_time|date='Y年m月d日',###}</small>
+                <article>{$list.content}</article>
+            </div>
+        </div>
+    </div>
+</div>

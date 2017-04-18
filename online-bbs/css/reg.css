@@ -1,0 +1,80 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+body, html {
+    font-size: 12px;
+}
+.wrap {
+    width: 400px;
+    margin: 0 auto;
+    padding: 6%;
+}
+.main {
+    width: 180px;
+    padding: 12%;
+    text-align: center;
+}
+h3, #username, #main_password, #cfm_password, #code, #btn {
+    margin: 8px 0;
+}
+h3 {
+    font-size: 20px;
+    padding: 10px;
+}
+#username, #main_password, #cfm_password, #code {
+    width: 180px;
+    height: 32px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+#username:hover, #main_password:hover, #cfm_password:hover, #code:hover {
+    color: #000;
+    border: 1px solid #f00;
+}
+#btn {
+    font-size: 14px;
+    height: 30px;
+    width: 85px;
+    background-color: #3385ff;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+}
+#btn:hover {
+    box-shadow: 2px 2px 1px #ccc ;
+}
+#verify {
+    height: 45px;
+    width: 180px;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bolder;
+    color: red;
+    background-color: #fcefa1;
+    line-height: 45px;
+    border-radius: 30px;
+    display: block;
+}
+#head_img_select {
+    height: 28px;
+    width: 80px;
+    display: block;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+.head_img_area #preview_img {
+    height: 120px;
+    width: 120px;
+}

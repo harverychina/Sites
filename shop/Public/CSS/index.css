@@ -1,0 +1,37 @@
+@charset "utf-8";
+* {padding: 0; margin: 0;}
+body,html { font: 12px "宋体","Arial Narrow",HELVETICA;}
+ul li {list-style: none;}
+a { text-decoration: none; color: #fff;}
+a:hover { text-decoration: underline;}
+
+/* header */
+header{ background-color: #000; color: #fff; height: 35px; line-height: 35px; }
+header .title { float: left; }
+header .title h3{ float: left; margin-left: 118px;}
+header .title p { float: left; margin-left: 20px;}
+header .sidebar { width: 200px; float: right; text-align: center;}
+header .sidebar ul li { width: 65px; float: left; }
+
+/*banner*/
+.banner{ text-align: center;}
+.banner img{ width:1920px; height: 350px; /*padding: 15px;*/}
+/* article */
+article { width: 1024px; margin: 0 auto; position: relative; }
+
+/* search bar */
+article .sea_bar { height: 45px; text-align: center; line-height: 45px; padding: 10px 0; }
+article .sea_bar #sea_key { height: 39px; width: 280px; border: 1px solid #ccc; text-indent: .5em;}
+article .sea_bar #sea_button { height: 40px; border: none; width: 65px; background-color: #f00; color: #fff; font-size: 16px;}
+
+/* good_list */
+article .good_list { padding: 5px; }
+article .good_list .row { height: 30px; }
+article .good_list .row h4 { height: 30px; line-height: 30px; padding: 5px; font-size: 18px; font-weight: bold; margin-left: 85px;}
+article .good_list .row ul { height: 520px; margin: 0 auto; text-align: center;}
+article .good_list .row ul li { width: 165px; display: inline-block; padding: 20px; font-size: 16px; font-weight:bold; color: red; display: inline-block; }
+article .good_list .row ul li:hover { border-bottom: 1px solid #f00; }
+
+/* footer */
+footer { width: 100%; background-color: #000; color: #fff; height: 45px; line-height: 45px; bottom: 0; position: fixed; text-align: center;}
+footer h4 { font-size:14px; font-weight: 100;}

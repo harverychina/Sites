@@ -1,0 +1,60 @@
+[ 2016-09-21T19:48:58+08:00 ] 127.0.0.1 /tp-guestbook/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+ERR: 无法加载模块:Index
+
+[ 2016-09-21T19:49:02+08:00 ] 127.0.0.1 /tp-guestbook/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+ERR: 无法加载模块:Index
+
+[ 2016-09-21T19:49:07+08:00 ] 127.0.0.1 /tp-guestbook/index.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+ERR: 无法加载模块:Index
+
+[ 2016-09-21T19:49:09+08:00 ] 127.0.0.1 /tp-guestbook/index.php/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+ERR: 无法加载模块:Index
+
+[ 2016-09-21T22:17:34+08:00 ] 127.0.0.1 /tp-guestbook/index.php/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+ERR: 无法加载模块:Index
+
+[ 2016-09-21T22:17:41+08:00 ] 127.0.0.1 /tp-guestbook/index.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+ERR: 无法加载模块:Index
+
+[ 2016-09-21T22:17:45+08:00 ] 127.0.0.1 /tp-guestbook/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+ERR: 无法加载模块:Index
+
+[ 2016-09-21T22:17:50+08:00 ] 127.0.0.1 /tp-guestbook/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+ERR: 无法加载模块:Index
+
+[ 2016-09-21T22:26:55+08:00 ] 127.0.0.1 /tp-guestbook/index.php/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+ERR: 无法加载模块:Send
+
+[ 2016-09-21T22:39:58+08:00 ] 127.0.0.1 /tp-guestbook/index.php/Homhe/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+ERR: 无法加载模块:Homhe
+

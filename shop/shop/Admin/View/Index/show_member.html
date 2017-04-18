@@ -1,0 +1,30 @@
+<div class="show_member">
+	<h3>客户管理</h3>
+	<div class="show_member_result">
+		<table>
+            <tr>
+                <th>序号</th>
+                <th>客户名</th>
+                <th>性别</th>
+                <th>联系电话</th>
+                <th>注册时间</th>
+                <th>操作</th>
+            </tr>
+            <volist name="member_result" id="vo">
+                <tr>
+                    <!-- <td>{$vo.id}</td> -->
+                    <td>{$member_id = $member_id + 1}</td>
+                    <td>{$vo.user_id}</td>
+                    <td>
+                    <if condition="$vo.user_gender eq 1">男<else />女</if>
+                    </td>
+                    <td>{$vo.user_tel}</td>
+                    <td>{$vo.time|date='Y-m-d',###}</td>
+                    <td>[<a href="mdf_member/{$vo.user_id}">修改</a>][<a href="#">删除</a>]</td>
+                </tr>
+            </volist>
+        </table>
+        <!-- 分页栏 -->
+        <div class="result page">{$Page}</div>
+	</div>
+</div>

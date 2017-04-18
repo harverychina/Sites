@@ -1,0 +1,31 @@
+@charset "uft-8";
+/*全局*/
+*{ margin: 0; padding: 0; }
+html,body{ font-size: 12px; }
+a{ text-decoration: none; color: #000;}
+ul li{ list-style-type: none; }
+/*画布*/
+.site-wrapp{ min-width: 1024px; margin: 0 auto;}
+/*顶部*/
+header{ height: 40px; line-height: 40px; background-color: #8c8c8c; color: #fff; padding: 15px;}
+header h3{ margin-left: 60px; font-size: 16px; }
+/*内容*/
+.content{ height: 780px; }
+/*左侧*/
+.left{ width: 20%; height: 100%; float: left;}
+/*右侧*/
+.right{ width: 80%; float: left;}
+.img { text-align: center; margin: 20px 10px;}
+.img img{ width: 100px; height: 100px; border-radius: 60px;}
+/*菜单*/
+.menu{ padding: 5px; }
+.menu li{ height: 18px; line-height: 20px; padding: 20px; text-align: center; }
+.r-content{ padding: 5px; }
+/*底部*/
+footer{ text-align: center; padding: 10px; }
+/*logform*/
+.logform{ width: 150px; margin: 25% auto; padding: 10px; text-align: center;}
+.logform h3, .logform input, .logform span{ margin-top: 5px; }
+.logform h3{ height: 25px; font-size: 18px; }
+#uname, #upass { width: 150px; height: 25px;}
+input[type='button']{ height: 30px; width: 65px; border: 1px solid #ccc; background-color: #fff;}

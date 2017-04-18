@@ -1,0 +1,26 @@
+<div class="show_good">
+    <h3>商品信息</h3>
+    <div class="good_list">
+        <table>
+            <tr>
+                <th>序号</th>
+                <th>商品名</th>
+                <th>商品价格</th>
+                <th>上架时间</th>
+                <th>操作</th>
+            </tr>
+            <!--  do while 或 while -->
+            <volist name="good_list" id="vo">
+                <tr>
+                    <td>{$good_id = $good_id + 1}</td>
+                    <td>{$vo.name}</td>
+                    <td>{$vo.price}</td>
+                    <td>{$vo.time}</td>
+                    <td>[<a href="__CONTROLLER__/show_good_desc/{$vo.id}">更多</a>]</td>
+                </tr>
+            </volist>
+        </table>
+        <!-- 分页栏 -->
+        <!--<div class="result page">{$Page}</div>-->
+    </div>
+</div>

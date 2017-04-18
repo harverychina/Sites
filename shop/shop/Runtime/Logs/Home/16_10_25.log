@@ -1,0 +1,6 @@
+[ 2016-10-25T07:59:53+08:00 ] ::1 /shop/index.php/Home/Index/check_login
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-10-25T20:57:09+08:00 ] ::1 /shop/index.php/Home/Index/check_login
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+

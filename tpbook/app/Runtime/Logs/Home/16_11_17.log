@@ -1,0 +1,6 @@
+[ 2016-11-17T20:50:49+08:00 ] ::1 /tpbook/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-11-17T20:51:19+08:00 ] ::1 /tpbook/
+ERR: SQLSTATE[HY000] [1049] Unknown database 'book'
+

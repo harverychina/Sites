@@ -1,0 +1,9 @@
+@charset "UTF-8";
+* { padding: 0px; margin: 0px; }
+a { text-decoration: none; }
+.wrap { width: 265px; text-align: center; margin: 20% auto;}
+form{ text-align: center; }
+label{ width: 68px; float: left; text-align: right; margin: 10px auto;}
+#username, #password, #rp { width: 180px; height: 25px; margin: 5px auto;}
+#err1, #err2, #err3 { margin: 5px auto; font-weight: bold; color: #f00; }
+#btn{ width: 65px; height: 30px; margin: 15px auto; border: none; background-color: #00f; color: #fff;}

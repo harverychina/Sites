@@ -1,0 +1,66 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    font-size: 12px;
+}
+.wrap {
+    width: 400px;
+    margin: 0 auto;
+    padding: 16%;
+}
+.main {
+    width: 180px;
+    padding: 10%;
+    text-align: center;
+}
+h3, #username, #password, #btn {
+    margin: 8px 0;
+}
+h3 {
+    font-size: 20px;
+    padding: 10px;
+}
+#username, #password {
+    width: 180px;
+    height: 32px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+#username:hover, #password:hover {
+    color: #000;
+    border: 1px solid #f00;
+}
+#btn, #reg {
+    font-size: 14px;
+    height: 30px;
+    width: 85px;
+    background-color: #3385ff;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    line-height: 30px;
+    display: block;
+    float: left;
+}
+#btn {
+    margin-right: 5px;
+}
+#btn:hover, #reg:hover {
+    box-shadow: 2px 2px 1px #ccc ;
+}
+#reg {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+
+
+
+

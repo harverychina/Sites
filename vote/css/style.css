@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*
+	Goloable  全局
+ */
+* { margin: 0px; padding: 0px; }
+html,body{ font-family: Arial; font-size: 12px; }
+ul,li { list-style: none; }
+a,a:hover { text-decoration: none; }
+h1, h2, h3, h4, h5, h6{ display: block; }
+
+/*
+	site-wrapp
+ */
+.site-wrapp { width: 100%; height: 100%;}
+.header { height: 40px; padding-top: 40px; padding-bottom: 40px; background-color: #0099CC;}
+.header h3 { margin-left: 40px; font-size: 24px; color: #fff; }
+
+.content { height: 100%; width: 100%; padding: 10px; }
+.content .row { padding: 10px; margin: 0 auto; }
+.content .row table { width: 600px; font-size: 14px; margin: 0 auto; border-collapse: collapse;}
+.content .row table caption { padding: 10px 0; }
+.content .row table caption, .content .row table tr { height: 30px; border: none; }
+.content .row table caption { font-size: 16px;font-weight: bold; line-height: 30px; }
+.content .row table td, .content .row table th { border: 1px solid #98bf21; }
+.content .row table tr td { text-align: center; padding: 3px 7px 2px 7px;}
+.content .row table tr th { background-color: #6699CC; color: #fff;  }
+#num { height: 25px; width: 45px; border: 1px solid #ccc; margin-left: 5px; margin-right: 5px; text-align: center;}
+.btn { height: 28px; width: 65px; background-color: #f00; color: #fff; border: 1px solid #ccc; }

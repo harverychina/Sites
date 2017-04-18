@@ -1,0 +1,52 @@
+[ 2016-11-02T15:13:53+08:00 ] ::1 /shop/index.php/Admin/Index/add_store
+ERR: 1406:Data too long for column 'tel' at row 1
+ [ SQL语句 ] : INSERT INTO `shop_store` (`id`,`name`,`address`,`tel`,`time`) VALUES (NULL,'111','111','437592047582','1478070833')
+
+[ 2016-11-02T16:23:31+08:00 ] ::1 /shop/index.php/Admin/Index/search_store_result
+ERR: 非法操作:search_store_result
+
+[ 2016-11-02T16:40:07+08:00 ] ::1 /shop/index.php/Admin/Index/show_search_store_result
+ERR: syntax error, unexpected '<', expecting endswitch (T_ENDSWITCH) or case (T_CASE) or default (T_DEFAULT)
+
+[ 2016-11-02T16:50:59+08:00 ] ::1 /shop/index.php/Admin/Index/show_search_store_result
+ERR: syntax error, unexpected '?>', expecting ',' or ')'
+
+[ 2016-11-02T16:51:10+08:00 ] ::1 /shop/index.php/Admin/Index/show_search_store_result
+ERR: syntax error, unexpected '?>'
+
+[ 2016-11-02T16:51:24+08:00 ] ::1 /shop/index.php/Admin/Index/show_search_store_result
+ERR: syntax error, unexpected '?>'
+
+[ 2016-11-02T16:52:14+08:00 ] ::1 /shop/index.php/Admin/Index/show_search_store_result
+ERR: Call to undefined function 2016-11-02,###()
+
+[ 2016-11-02T16:55:00+08:00 ] ::1 /shop/index.php/Admin/Index/show_search_store_result
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting endswitch (T_ENDSWITCH) or case (T_CASE) or default (T_DEFAULT)
+
+[ 2016-11-02T16:55:31+08:00 ] ::1 /shop/index.php/Admin/Index/show_search_store_result
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting endswitch (T_ENDSWITCH) or case (T_CASE) or default (T_DEFAULT)
+
+[ 2016-11-02T16:55:36+08:00 ] ::1 /shop/index.php/Admin/Index/show_search_store_result
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting endswitch (T_ENDSWITCH) or case (T_CASE) or default (T_DEFAULT)
+
+[ 2016-11-02T16:56:22+08:00 ] ::1 /shop/index.php/Admin/Index/
+ERR: syntax error, unexpected 'else' (T_ELSE), expecting endswitch (T_ENDSWITCH) or case (T_CASE) or default (T_DEFAULT)
+
+[ 2016-11-02T21:32:19+08:00 ] ::1 /shop/index.php/Admin/Index/show_store
+ERR: Call to a member function count() on null
+
+[ 2016-11-02T21:32:34+08:00 ] ::1 /shop/index.php/Admin/Index/show_store
+ERR: Call to a member function count() on null
+
+[ 2016-11-02T21:39:28+08:00 ] ::1 /shop/index.php/Admin/Index/show_store/p/1.html
+ERR: syntax error, unexpected '；' (T_STRING)
+
+[ 2016-11-02T21:39:36+08:00 ] ::1 /shop/index.php/Admin/Index/show_store/p/1.html
+ERR: Call to a member function setConfig() on null
+
+[ 2016-11-02T21:39:38+08:00 ] ::1 /shop/index.php/Admin/Index/show_store/p/1.html
+ERR: Call to a member function setConfig() on null
+
+[ 2016-11-02T21:49:39+08:00 ] ::1 /shop/index.php/Admin/Index/show_store/p/2.html
+ERR: Call to a member function setConfig() on null
+

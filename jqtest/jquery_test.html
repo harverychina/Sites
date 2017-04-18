@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery_test</title>
+	<script src="jquery.min.js"></script>
+	<script>
+		$(function() {
+			// post 方法
+			// $.post('index-5.php?v1=1', {v2: 2}, function(data) {
+			$.post('index-5.php?v1=1', function(data) {
+				// $('').append(data).appendTo('body');
+				$('<pre/>').append(data).appendTo('body');
+			});
+		});
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

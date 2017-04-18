@@ -1,0 +1,9 @@
+@charset "UTF-8";
+*{ padding: 0px; margin: 0px; }
+.wrap{ width: 280px; margin: 20%  auto auto 40%; text-align: center; font-size: 16px;}
+label{ width: 65px; height: 30px; text-align: right; float: left; line-height: 42px;}
+#username, #password, #rpassword, #input_code { height: 30px; width: 200px; margin: 5px auto auto 5px; }
+img { margin: 5px auto; }
+#err{ height: 30px; margin: 5px auto; }
+.btn{ height: 30px; width: 65px; margin-top: 15px; background-color: #00f; color: #fff; border: none; font-size: 14px; }
+.btn:hover{ font-weight: bold; }

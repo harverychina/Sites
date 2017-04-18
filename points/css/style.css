@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* 全局样式 */
+* { margin: 0px; padding: 0px; }
+html,body { font-size: 12px; font-family: Arial;}
+.wrapper { width: 1024px; padding: 2% 5%; margin: 0 auto; }
+header{ height: 35px;  }
+header h3 { height: 38px; line-height: 38px; width: 200px; font-size: 20px; text-align: center; padding: 5px 0;}
+/*content*/
+.content .left, .content .right { float: left; }
+/*left*/
+.content .left { width: 20%; text-align: center; padding-top: 15px; }
+.content .left #header_img{ width: 64px; height: 64px; background-color: #f00; padding: 8px; border: none;  border-radius: 40px;}
+.content .left p { width: 80px; height: 18px; text-align: center; font-weight: bold; color: #f00; padding: 5px 0; margin: 0 auto;}
+.content .left ul { width: 80px; padding: 15px 0; margin: 0 auto;}
+.content .left ul li { list-style-type: none; text-align: center; }
+.content .left ul li a { height: 32px; line-height: 32px;  width: 85px;  border-radius: 30px; text-decoration: none; color: #8c8c8c; display: block; }
+.content .left ul li a:hover { background-color: #f00; color: #fff;}
+/*right*/
+.content .right { height: 650px; width: 80%; }
+.content .right .content { padding: 5px; }
+.row h3 { height: 30px; line-height: 30px; width: 160px; text-align: right; }
+.row ul { padding: 5px 65px; }
+.row ul li { height: 24px; line-height: 24px; width: 65px; text-align: center;}

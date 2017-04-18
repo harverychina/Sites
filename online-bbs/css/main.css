@@ -1,0 +1,171 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+body, html {
+    font-size: 14px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+/* 全局 */
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+}
+h3 {
+    font-size: 20px;
+}
+/* 顶部 */
+header {
+    width: 1024px;
+    margin: 0 auto;
+}
+/* 头像 */
+header .logo_area {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+header .logo_area img {
+    width: 80px;
+    height: 80px;
+}
+header article {
+    width: 800px;
+    height: 160px;
+    margin: 0 auto;
+    padding: 15px;
+}
+/* 登录头像区 */
+header .head_img {
+    height: 65px;
+    width: 65px;
+    position: relative;
+    float: right;
+    margin-top: -90px;
+    text-align: center;
+}
+header .head_img img {
+    height: 60px;
+    width: 60px;
+}
+header .head_img span {
+    display: block;
+    float: left;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* 浮动菜单 */
+.small-menu {
+    display: none;
+    width: 80px;
+    height: 60px;
+    float: right;
+    position: relative;
+    z-index: 1;
+    top: -206px;
+    right: -6px;
+    text-align: center;
+    background-color: #000;
+}
+.small-menu ul, .small-menu li {
+    list-style-type: none;
+}
+.small-menu li {
+    height: 30px;
+    line-height: 30px;
+}
+.small-menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+/* 文字区 */
+header #word {
+    resize: none;
+    height: 100px;
+    width: 98%;
+    font-size: 18px;
+    padding: 15px;
+}
+/* 发布按钮 */
+header #btn {
+    height: 30px;
+    width: 85px;
+    border: none;
+    border-radius: 30px;
+    margin: 5px 0;
+}
+header #btn:hover {
+    background-color: #f00;
+    color: #fff;
+}
+/* 浏览区 */
+.center {
+    width: 1024px;
+    margin: 0 auto;
+}
+.center .row {
+   height: 120px;
+   width: 800px;
+   margin: 0 auto;
+   padding: 30px;
+}
+.center .row .h_img {
+    height: 120px;
+    width: 120px;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+}
+.center .row .h_img img{
+    height: 80px;
+    width: 80px;
+}
+.center .row .h_img p{
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.center .row .content {
+    width: 600px;
+    height: 80px;
+    padding: 20px 0;
+    float: left;
+}
+.center .row .content p{
+    height: 80px;
+    line-height: 20px;
+    padding: 15px;
+    text-indent: 1.5em;
+    border: 1px dashed #ccc;
+}
+
+.center .row .commit {
+    height: 80px;
+    width:  80px;
+    float: left;
+    text-align: center;
+    padding: 22px 0;
+}
+.center .row .commit #islike, .center .row .commit #dislike {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+.center .row .commit #dislike {
+    -moz-transform:scaleY(-1);
+    -webkit-transform:scaleY(-1);
+    -o-transform:scaleY(-1);
+    transform:scaleY(-1);
+    /*IE*/
+    filter:FlipV;
+}
+
+
+
+
+
